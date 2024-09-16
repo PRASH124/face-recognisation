@@ -1,1 +1,48 @@
 
+Face Recognition Project
+Project Overview
+This project involves building a Face Recognition System using machine learning techniques. It aims to detect and recognize human faces from images or video feeds, providing an efficient and reliable identification mechanism. The system can be applied in various areas like security, access control, and identity verification.
+
+Project Structure
+Face_Recognisation.ipynb: Jupyter notebook that contains the code implementation for the face recognition system, including the data preprocessing, model building, and evaluation.
+train_lyst1717074532669.csv: Training dataset used to train the face recognition model.
+test_lyst1717074532669.csv: Testing dataset used to validate the performance of the trained model.
+Dependencies
+Make sure you have the following libraries installed to run the project:
+
+Python 3.x
+NumPy
+pandas
+OpenCV
+TensorFlow or PyTorch (for deep learning models)
+scikit-learn
+Jupyter Notebook
+
+You can install the dependencies using the following command:
+
+pip install -r requirements.txt
+
+How to Run
+1) Clone the repository:
+
+   git clone <repository-url>
+
+ 2) Install the required dependencies:
+
+       pip install -r requirements.txt
+
+3) Open the Jupyter notebook:
+
+    jupyter notebook Face_Recognisation.ipynb
+
+   4) Run the cells in the notebook to execute the code step by step.
+
+
+Model Overview
+Preprocessing: Faces are detected using OpenCV's Haar cascades or DNN face detector. The images are resized and normalized.
+Model: The face recognition model is built using a Convolutional Neural Network (CNN) for feature extraction.
+Training: The model is trained on the training dataset (train_lyst1717074532669.csv).
+Testing: The model performance is evaluated on the testing dataset (test_lyst1717074532669.csv), with metrics like accuracy, precision, and recall.
+
+
+
